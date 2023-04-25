@@ -1,0 +1,55 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    background-image: url(assets/zdenek-machacek-3onL75TnSjg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 105px;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid rgb(204, 234, 241);
+    border-radius: 1.8rem;
+    padding: 55px;
+}
+
+h1 {
+    font-size: 85px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color:whitesmoke;
+    
+}
+
+#message-el {
+    font-style: italic;
+}
+
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 25px;
+    padding: 15px;
+    width: 200px;
+    border: 1.5px solid salmon;
+    border-radius: 1.8rem;
+}
